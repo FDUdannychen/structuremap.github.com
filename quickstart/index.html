@@ -150,7 +150,7 @@ It's important that you structure and build your application with these concepts
                 .ShouldBeOfType&lt;Foo&gt;()
 
                 // and the IBar dependency too
-                .Bar.ShouldBeOfType&lt;Foo&gt;();
+                .Bar.ShouldBeOfType&lt;Bar&gt;();
 
 
 </code></pre>
@@ -167,7 +167,7 @@ It's important that you structure and build your application with these concepts
 
             container.GetInstance&lt;IFoo&gt;()
                 .ShouldBeOfType&lt;Foo&gt;()
-                .Bar.ShouldBeOfType&lt;Foo&gt;();
+                .Bar.ShouldBeOfType&lt;Bar&gt;();
 
 </code></pre>
 <h2>Integrating StructureMap within your application</h2>
